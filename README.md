@@ -51,7 +51,7 @@ report.save("report.html")  # open in browser
 ### ReguliQ (production LangGraph agent) — healthy
 
 > Instrumented with real LangGraph callbacks. Peak context: 965 tokens.
-> At that scale, Claude Haiku retrieves with 100% accuracy.
+> At that scale, Claude retrieves with 100% accuracy.
 
 ```
 context-lens: ReguliQ
@@ -144,6 +144,8 @@ pip install "reguliq-diagnostics[langgraph]"
 # Development
 pip install "reguliq-diagnostics[dev]"
 ```
+
+> Import name is unchanged: `import context_lens`
 
 ---
 
