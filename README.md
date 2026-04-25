@@ -3,7 +3,7 @@
 Tells you **where** your LLM agent's memory breaks, **at what token count**, and **how to fix it**.
 
 ```
-pip install context-lens
+pip install reguliq-diagnostics
 ```
 
 ---
@@ -136,13 +136,13 @@ LangGraph    ──►  LangGraphInstrumentor
 
 ```bash
 # Core (probing + classifiers + HTML report)
-pip install context-lens
+pip install reguliq-diagnostics
 
 # LangGraph instrumentation
-pip install "context-lens[langgraph]"
+pip install "reguliq-diagnostics[langgraph]"
 
 # Development
-pip install "context-lens[dev]"
+pip install "reguliq-diagnostics[dev]"
 ```
 
 ---
