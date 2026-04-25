@@ -1,0 +1,34 @@
+# secrets / env
+.env
+
+# virtualenv
+.venv/
+
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# packaging artefacts
+*.egg-info/
+dist/
+build/
+
+# test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# generated demo reports (run the demo scripts to recreate)
+examples/*.html
+
+# notebooks
+*.csv
+notebooks/.ipynb_checkpoints/
+
+# local data
+data/haystacks/
+results/
+
+# local Claude Code settings (machine-specific permission allowlists)
+.claude/settings.local.json
